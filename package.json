@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 8081",
+    "prebuild": "next telemetry disable",
     "build": "next build",
     "start": "next start"
   },
@@ -12,6 +13,7 @@
     "@shopify/app-bridge-react": "^1.15.0",
     "@shopify/polaris": "^5.3.1",
     "apollo-boost": "^0.4.4",
+    "axios": "^0.24.0",
     "cookie": "^0.4.1",
     "cross-env": "^7.0.2",
     "dotenv": "^10.0.0",
